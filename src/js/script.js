@@ -7,7 +7,7 @@
         isAdmin: false
     };
   }
-  onsole.log(createUser("John", 25));
+  console.log(createUser("John", 25));
 }
 //2-masala
 {
