@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "ir";
+    src: url(../assets/fonts/Inter_28pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "im";
+    src: url(../assets/fonts/Inter_28pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: "isb";
+    src: url(../assets/fonts/Inter_24pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: "ib";
+    src: url(../assets/fonts/Inter_28pt-Bold.ttf);
+}
+@import "tailwindcss";
+
+@theme{
+    --color-title: #4D4D4D;
+    --color-text: #717171;
+    --font-ir: "ir", "sans-serif";
+    --font-im: "im", "sans-serif";
+    --font-isb: "isb", "sans-serif";
+    --font-ib: "ib", "sans-serif";
+}
+.container {
+    max-width: 1184px;
+    padding: 0 16px;
+}
+
+* {
+    scroll-behavior: smooth;
+}
